@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="git" fetch="https://github.com" />
+<remote name="glab" fetch="https://gitlab.com" />
+
+<!-- Removed projects -->
+<remove-project name="GenesisOS/android_packages_resources_devicesettings" />
+
+<!-- Device Trees -->
+<project path="device/xiaomi/alioth" name="bntxperses/device_xiaomi_alioth" remote="git" revision="aosp-14" />
+<project path="device/xiaomi/sm8250-common" name="bntxperses/device_xiaomi_sm8250-common" remote="git" revision="aosp-14" />
+<project path="vendor/xiaomi/alioth" name="bntxperses/vendor_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="vendor/xiaomi/sm8250-common" name="bntxperses/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="hardware/xiaomi" name="bntxperses/hardware_xiaomi" remote="git" revision="aosp-14" />
+<project path="packages/resources/devicesettings" name="bntxperses/packages_resources_devicesettings" remote="git" revision="aosp-14" />
+<project path="vendor/xiaomi/camera" name="bntxperses/vendor_xiaomi_camera" remote="glab" revision="aosp-14"/>
+</manifest>
